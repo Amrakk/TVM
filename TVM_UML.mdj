@@ -39,6 +39,56 @@
 					"name": "TVM_UseCaseDiagram"
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGGsjA+scA6T4Q=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGGsjA+ssA7Ixw=",
+					"_parent": {
+						"$ref": "AAAAAAGGsjA+scA6T4Q="
+					},
+					"name": "UseCaseDiagram1"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAGGsjBLCMA//1Q=",
+					"_parent": {
+						"$ref": "AAAAAAGGsjA+scA6T4Q="
+					},
+					"name": "Actor1"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGGsjC+6sBr0J0=",
+					"_parent": {
+						"$ref": "AAAAAAGGsjA+scA6T4Q="
+					},
+					"name": "Package1"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAGGsjDeD8CU1es=",
+					"_parent": {
+						"$ref": "AAAAAAGGsjA+scA6T4Q="
+					},
+					"name": "UseCaseSubject1"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGGsjD/l8CyNF4=",
+					"_parent": {
+						"$ref": "AAAAAAGGsjA+scA6T4Q="
+					},
+					"name": "UseCase1"
+				}
+			]
 		}
 	]
 }
