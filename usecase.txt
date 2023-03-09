@@ -1,0 +1,79 @@
+list of use case:
+purchase ticket
+confirm ticket
+confirm payment
+	credit/debit card
+	digital wallet
+print ticket
+customer feedback
+issue report
+switch language
+login as administrator
+transaction logs view
+error logs view
+
+
+                                  +-------------+
+                                  |   Passenger |
+                                  +-------------+
+                                        |
+                                        |
+                 +-----------------------------------------------------------+
+                 |                                                           |
+             +-------------+                                             +-------------+
+             | TVM         |                                             | Ticket      |
+             +-------------+                                             | Management |
+             |             |                                             +-------------+
+             |             |
++------------------------+-------------------------------+
+|                        |                               |
+|  Purchase ticket       |  Confirm ticket               |
+|                        |                               |
+|  - Select destination  |  - Validate ticket            |
+|  - Select payment type |                               |
+|  - Enter payment info  |                               |
+|  - Issue ticket        |                               |
+|                        |                               |
++------------------------+-------------------------------+
+|                        |                               |
+|  Confirm payment       |  Print ticket                 |
+|                        |                               |
+|  - Validate payment    |  - Print ticket with bar code |
+|  - Issue receipt       |  - Verify ticket validity     |
+|                        |                               |
++------------------------+-------------------------------+
+|                        |                               |
+|  Customer feedback     |  Switch language               |
+|                        |                               |
+|  - Enter feedback      |  - Select language             |
+|  - Submit feedback     |                               |
+|                        |                               |
++------------------------+-------------------------------+
+|                        |                               |
+|  Request refund        |  View ticket purchase history |
+|                        |                               |
+|  - Request refund      |  - View past purchases         |
+|                        |                               |
++------------------------+-------------------------------+
+
+                                  +-------------+
+                                  | Administrator|
+                                  +-------------+
+                                        |
+                                        |
+                                   +---------+
+                                   | Maintenance|
+                                   +---------+
+                                        |
+                                        |
+                 +-----------------------------------------------------------+
+                 |                                                           |
+             +-----------------+                                    +-----------------+
+             | Login as admin  |                                    | View error logs |
+             +-----------------+                                    |                 |
+             |                 |                                    |                 |
+             +-----------------+                                    +-----------------+
+             | View trans logs |                                    | Issue report    |
+             |                 |                                    |                 |
+             +-----------------+                                    +-----------------+
+
