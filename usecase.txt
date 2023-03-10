@@ -1,13 +1,15 @@
 list of use case:
-purchase ticket
-confirm ticket
-confirm payment
-	credit/debit card
-	digital wallet
-print ticket
-customer feedback
+customer:
+purchase ticket include (
+	_confirm ticket
+	_confirm payment include (
+		_credit/debit card
+		_digital wallet)
+	_print ticket
 issue report
 switch language
+
+operator:
 login as administrator
 transaction logs view
 error logs view
